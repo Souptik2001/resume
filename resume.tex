@@ -1,44 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This is a modified ONE COLUMN version of
-% the following template:
-%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Known Issues:
 % 1. Overflows onto second page if any column's contents are more than the
@@ -56,7 +16,7 @@
   %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
-\namesection{Souptik} {Datta}\infoline{\href{mailto:souptikdatta2001@gmail.com}{souptikdatta2001@gmail.com} | 8334012176 | 246, Bangur Park, Rishra}\\\vspace{4pt}\linksline{\descript{\href{https://www.hackerrank.com/souptikdatta2001}{HackerRank | }},\descript{\href{https://github.com/Souptik2001}{GitHub | }},\descript{\href{https://www.linkedin.com/in/souptik-datta-a10072183}{Linkedin | }},\descript{\href{https://souptik2001.github.io}{Blog | }},\descript{\href{https://souptik2001.github.io/about.html}{Portfolio}}}\underlineheader{}
+\namesection{Souptik} {Datta}\infoline{\href{mailto:souptikdatta2001@gmail.com}{souptikdatta2001@gmail.com} | 8334012176 | Hoogly, West Bengal, India}\\\vspace{4pt}\linksline{\descript{\href{https://github.com/Souptik2001}{GitHub | }},\descript{\href{https://www.linkedin.com/in/souptik-datta-a10072183}{Linkedin | }},\descript{\href{https://www.hackerrank.com/souptikdatta2001}{HackerRank | }},\descript{\href{https://souptik2001.github.io}{Blog | }},\descript{\href{https://souptik2001.github.io/about.html}{Portfolio}}}\underlineheader{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -98,24 +58,27 @@
        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
        \section{Projects / Open-Source}
        \raggedright
+         
        
-           \runsubsection{\large{Inverse Kinematics Solver}}
+           \runsubsection{\large{Custom Unity Shaders}}
+           \descript{| \href{https://souptik2001.github.io/\#content:\textasciitilde:text=Shaders}{Link}}\hfill \location{Unity, C\#, HLSL}\\
+           I recently started with shader writing for graphics rendering and I am really enjoying it. The ability to write shaders gives you so much control over how you want your game to look. Here are some projects on shaders that I am currently working on - Portal Shader (Teleportation mechanic also implemented) - https://github.com/Souptik2001/Portal
+Water shader - https://github.com/Souptik2001/Water-Shader\\
+           \sectionsep
+           
+           
+                      \runsubsection{\large{Game Projects}}
+           \descript{| \href{https://souptik2001.itch.io/}{Link}}\hfill \location{Unity, C\#, HLSL}\\
+           These are some of the games that I have created.\\
+           \sectionsep
+           
+           
+           
+                      \runsubsection{\large{Inverse Kinematics Solver}}
            \descript{| \href{https://github.com/Souptik2001/IK-Solver}{Link}}\hfill \location{Unity, C\#}\\
            This is an inverse kinematic solver that uses the FABRIK algorithm. I have also implemented a collision detection algorithm with the basic FABRIK algorithm.\\
            \sectionsep
          
-       
-           \runsubsection{\large{Custom Shaders}}
-           \descript{| \href{https://souptik2001.github.io/\#content:\textasciitilde{}:text=Shaders}{Link}}\hfill \location{Unity, C\#, HLSL}\\
-           I recently started with shader writing for graphics rendering and I am really enjoying it. The ability to write shaders gives you so much control over how you want your game to look. Here are some projects on shaders that I am currently working on - Portal Shader (Teleportation mechanic also implemented) - https://github.com/Souptik2001/Portal
-Water shader - https://github.com/Souptik2001/Water-Shader\\
-           \sectionsep
-         
-       
-           \runsubsection{\large{Game Projects}}
-           \descript{| \href{https://souptik2001.itch.io/}{Link}}\hfill \location{Unity, C\#, HLSL}\\
-           These are some of the games that I have created.\\
-           \sectionsep
          
        
            \runsubsection{\large{Incentivized Tech Bin}}
@@ -128,6 +91,31 @@ Water shader - https://github.com/Souptik2001/Water-Shader\\
            \descript{| \href{https://seasons-co.com/}{Link}}\hfill \location{HTML, CSS, JavaScript, Firebase}\\
            I created a static website for this company and also hosted it on firebase and linked it with a custom domain.\\
            \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       %
+       %     Hobbies
+       %
+       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       \section{Personal Interests}
+       \raggedright
+         
+                             \runsubsection{\large{Competitive Programming}}\\
+            I like solving data structures and algorithms related problems to improve my logical and problem solving skills. \descript{\href{https://www.hackerrank.com/souptikdatta2001}{Hackerrank Profile}}.\\
+           \sectionsep
+       
+       
+           \runsubsection{\large{Painting}}
+           \\
+            In my leisure time I like to do some sketching and painting. \descript{\href{https://souptik2001.github.io/m_t.html}{Here are some of my paintings}}.\\
+           \sectionsep
+         
+       
+           \runsubsection{\large{Reading}}\\
+            Computer Science, mathematics and electronics related topics.\\
+           \sectionsep
+
+
 
      \ 
      \end{document}
