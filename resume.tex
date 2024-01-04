@@ -6,7 +6,7 @@
 % 2. Hacky space on the first bullet point on the second column.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     \documentclass[]{deedy-resume-openfont}
+     \documentclass[]{resume}
  
      \begin{document}
      
@@ -16,7 +16,10 @@
   %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
-\namesection{Souptik} {Datta}\infoline{\href{mailto:souptikdatta2001@gmail.com}{souptikdatta2001@gmail.com} | 8334012176 | Hoogly, West Bengal, India}\\\vspace{4pt}\linksline{\descript{\href{https://github.com/Souptik2001}{GitHub | }}\descript{\href{https://www.linkedin.com/in/souptik-datta-a10072183}{Linkedin | }}\descript{\href{https://www.hackerrank.com/souptikdatta2001}{HackerRank | }}\descript{\href{https://souptik.dev}{Blog | }}\descript{\href{https://souptik.dev/about}{Portfolio}}}\underlineheader{}
+\namesection{Souptik} {Datta}\infoline{\href{mailto:souptikdatta2001@gmail.com}{souptikdatta2001@gmail.com} | 8334012176 | Hoogly, West Bengal, India}\\\vspace{4pt}\linksline{\descript{\href{https://github.com/Souptik2001}{\textbf{GitHub} | }}\descript{\href{https://www.linkedin.com/in/souptik-datta}{Linkedin | }}\descript{\href{https://souptik.dev/}{\textbf{Blog}}}}\underlineheader{}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -26,16 +29,35 @@
 \section{Education}
 \raggedright
 
-    \runsubsection{Kalinga Institute Of Industrial Technology}\hspace*{\fill}  \location{April 2019 - April 2023}\\
-    \descript{Bachelors Electronics And Telecommunications}\hspace*{\fill}\location{Odisha, India}\\
-    GPA: 8.75\\
-    \sectionsep
-  
+    \runsubsection{\href{https://kiit.ac.in/}{Kalinga Institute Of Industrial Technology, Odisha, India}}\hspace*{\fill}  \location{April 2019 - April 2023}
 
-    \runsubsection{Aditya Birla Vani Bharati}\hspace*{\fill}  \location{2017 - 2019}\\
-    \descript{Higher Secondary Science}\hspace*{\fill}\location{West Bengal, India}\\
-    GPA: 8.9\\
+    B.Tech, Electronics And Telecommunications, \textit{CGPA: 8.75/10}\hspace*{\fill}
+
     \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       %
+       %     Experience
+       %
+       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       \section{Experience}
+       \raggedright
+         
+           \runsubsection{\large{\href{https://rtcamp.com}{rtCamp}}} - \textit{WordPress Engineer}\hspace*{\fill}  \location{January 2022 - Present}
+
+            \textbullet\ Working as Engineering lead for a project; responsibilities including writing initial engineering notes for tasks, and DevOps activities.
+
+            \textbullet\ Create lightweight and scalable web-components ensuring reusability, compatibility, and performance. 
+
+            \textbullet\ Worked on developing a \textbf{GraphQL layer} acting as a middleware between WordPress and a React frontend, to effectively consume data from WordPress and serve to the frontend. And yes, mutations to push data from frontend to backend!
+
+            \textbullet\ Crafted tailored solutions for Gutenberg, such as custom \textbf{Gutenberg blocks}, custom \textbf{RichText format}, and also \textbf{extending the Gutenberg editor} for custom functionalities.
+
+            \textbullet\ Managed hosting and deployment cycles of enterprise WordPress applications on different platforms ranging from \textbf{self-managed servers} to \textbf{WordPress VIP}.
+
+            \textbullet\ Directly involved with L\&D team to train and mentor new trainees in both technical and behavioral aspects, which involved conducting technical sessions, code reviews, and reporting detailed consumable feedback.
+           \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -45,10 +67,11 @@
 \section{Skills}
 \raggedright
 \begin{tabular}{ l l }
-\descript{Programming Languages} & {\location{C++, C\#, Python, Javascript, PHP, High-level shader language}} \\
-\descript{Libraries/Frameworks} & {\location{Flask, Express}} \\
-\descript{Tools / Platforms} & {\location{Unity, Linux}} \\
-\descript{Databases} & {\location{MySQL, MongoDB}} \\
+\descript{Programming Languages} & {\location{C++, Python, Javascript, PHP}} \\
+\descript{Front-end} & {\location{Vanilla stack, \href{https://developer.mozilla.org/en-US/docs/Web/API/Web_components}{Web-components}, ReactJS, NextJS}} \\
+\descript{Tools/Frameworks} & {\location{PHPUnit, PHPStan, PHPCS, ESLint Jest}} \\
+\descript{Databases} & {\location{MySQL, MongoDB, Redis}} \\
+\descript{CMS} & {\location{WordPress}} \\
 \end{tabular}
 \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,70 +79,21 @@
        %     Projects
        %
        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-       \section{Projects}
+       \section{Personal Projects}
        \raggedright
-         
-          
-           
-           
-           
-                                \runsubsection{\large{Highscore Server}}
-           \descript{| \href{https://scoremadeeasy.souptikdatta.repl.co/}{Link}}\hfill \location{Python(Flask), Sqlite, JavaScript}\\
-           Lightweight, very easy to use, yet highly customizable highscore server. As I have used sqlite, so it makes it a lot faster than using external database server. But when using Sqlite I also faced some challanges. To read about the challanges that I faced and how I tackled them, visit here - https://github.com/Souptik2001/Highscore-Server\#readme. You can also try it yourself out by clicking on the link beside the heading.\\
+
+           \runsubsection{\large{Decoupled WordPress Solutions}} [\textbf{\href{https://souptik.dev}{\faIcon{link}}}][\textbf{\href{https://github.com/Souptik2001/Souptik2001.github.io}{\faIcon{github}}}][\textbf{\href{https://github.com/Souptik2001/wp-decoupled-sample}{\faIcon{github-alt}}}] - \textit{ReactJS, WordPress, GraphQL}
+
+           The first one is my personal blogging site and the second one is a skeleton decoupled project. Both architectures are almost similar with some differences in the GraphQL data fetching layer.\\
+
            \sectionsep
 
-         
-                    \runsubsection{\large{Custom Unity Shaders}}
-           \descript{| \href{https://github.com/Souptik2001/Water-Shader}{Link}}\hfill \location{Unity, C\#, HLSL}\\
-           I recently started with shader writing for graphics rendering and I am really enjoying it. The ability to write shaders gives you so much control over how you want your game to look. Here are some projects on shaders that I am currently working on - Portal Shader (Teleportation mechanic also implemented) - https://github.com/Souptik2001/Portal
-Water shader - https://github.com/Souptik2001/Water-Shader\\
+           \runsubsection{\large{WordPress Local Development Bootstrap}}
+           [\textbf{\href{https://github.com/Souptik2001/wordpress.setup}{\faIcon{github}}}] - \textit{Bash, Jinja, Python}
+
+           Simple yet powerful automated bash script to setup WordPress local development setup with Lando (docker-based local development setup). And yes it also provides flexibility to customize the different aspects of the app all the way!
+
            \sectionsep
-
-
-
-                      \runsubsection{\large{Game Projects}}
-           \descript{| \href{https://souptik2001.itch.io/}{Link}}\hfill \location{Unity, C\#, HLSL}\\
-           These are some of the games that I have created.\\
-           \sectionsep
-
-
-
-       
-           \runsubsection{\large{Incentivized Tech Bin}}
-           \descript{| \href{https://github.com/Souptik2001/Tech-Bin}{Link}}\hfill \location{Python, Html, CSS, JavaScript, MySQL, C++, Esp32}\\
-           This project encourages people to throw garbage in their own dustbins and to empty the dustbin every day when the garbage collection truck comes. For the working procedure please check out the project GitHub repository.\\
-           \sectionsep
-         
-         
-       
-           \runsubsection{\large{Website Design}}
-           \descript{| \href{https://seasons-co.com/}{Link}}\hfill \location{HTML, CSS, JavaScript, Firebase}\\
-           I created a static website for this company and also hosted it on firebase and linked it with a custom domain.\\
-           \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-       %
-       %     Hobbies
-       %
-       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-       \section{Personal Interests}
-       \raggedright
-         
-                             \runsubsection{\large{Competitive Programming}}\\
-            I like solving data structures and algorithms related problems to improve my logical and problem solving skills. 
-           \sectionsep
-       
-       
-           \runsubsection{\large{Painting}}
-           \\
-            In my leisure time I like to do some sketching and painting.\\
-           \sectionsep
-         
-       
-           \runsubsection{\large{Reading}}\\
-            Computer Science, mathematics and electronics related topics.\\
-           \sectionsep
-
 
 
      \ 
