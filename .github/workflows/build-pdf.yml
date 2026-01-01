@@ -16,6 +16,7 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
+          cache: true
           root_file: resume.tex
           latexmk_use_xelatex: false
           texlive_version: 2020
