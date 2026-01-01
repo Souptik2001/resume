@@ -21,6 +21,7 @@
 \usepackage{lmodern}
 \usepackage{calc}
 \usepackage{tabu}
+\usepackage{fontawesome5}
 
 % Color definitions
 \definecolor{date}{HTML}{666666}
