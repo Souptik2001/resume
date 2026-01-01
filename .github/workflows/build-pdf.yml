@@ -17,7 +17,8 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
-          latexmk_use_xelatex: true
+          latexmk_use_xelatex: false
+          texlive_version: 2020
 
       - name: Move PDF into docs
         run: |
