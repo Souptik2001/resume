@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <desc>Minimalist Studio Light Softbox Outline</desc>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="100" y1="150" x2="100" y2="280" />
+    <line x1="100" y1="280" x2="60" y2="300" />
+    <line x1="100" y1="280" x2="140" y2="300" />
+    
+    <path d="M 100 20 L 180 100 L 100 180 L 20 100 Z" />
+    <line x1="60" y1="100" x2="140" y2="100" opacity="0.5"/>
+    <line x1="100" y1="60" x2="100" y2="140" opacity="0.5"/>
+    
+    <circle cx="100" cy="165" r="8" />
+  </g>
+</svg>
